@@ -20,6 +20,15 @@
 <img src="https://github.com/woodheader/zxg/assets/12424760/75684c9e-ae89-4a4d-9e67-305d26719a20" height="500px">
 <img src="https://github.com/woodheader/zxg/assets/12424760/9ff8141a-448e-4425-84c1-51a76da43203" height="500px">
 
+#### 管理后台界面
+![zxg-adm-01](https://github.com/woodheader/zxg/assets/12424760/6c8184d1-9bbe-489d-b296-21fad041b686)
+
+
+#### 超管后台界面
+![zxg-sadm-01](https://github.com/woodheader/zxg/assets/12424760/22bd50c1-3e0a-49df-bd33-4bf5933db426)
+
+
+
 #### 购买须知
 1. 为了更好的支持项目继续开发，有意付费购买的同学，请关注公众号咨询，公众号：问答求知
 2. 付费用户支持首次免费协助部署上线，后续维护200元/次
