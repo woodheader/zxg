@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "管家服务",
+  "navigationBarBackgroundColor": "#01b9e5",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u-rate": "/uview-ui/components/u-rate/u-rate",
+    "u-popup": "/uview-ui/components/u-popup/u-popup"
+  }
+}

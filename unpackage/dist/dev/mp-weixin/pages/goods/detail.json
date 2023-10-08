@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "商品详情页",
+  "usingComponents": {
+    "mp-html": "/uni_modules/mp-html/components/mp-html/mp-html",
+    "slide-image": "/pages/goods/components/SlideImage",
+    "sku-popup": "/pages/goods/components/SkuPopup",
+    "comment": "/pages/goods/components/Comment",
+    "service": "/pages/goods/components/Service"
+  }
+}

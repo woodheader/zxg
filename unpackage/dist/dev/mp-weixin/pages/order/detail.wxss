@@ -1,0 +1,349 @@
+
+page {
+  background: #f4f4f4;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 引入uView全局scss变量文件 */
+.container.data-v-57d42baa {
+  padding-bottom: constant(env(safe-area-inset-bottom)106rpx6rpx);
+  padding-bottom: calc(env(safe-area-inset-bottom) + 106rpx + 6rpx);
+}
+.header.data-v-57d42baa {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e8c269;
+  height: 280rpx;
+  padding: 56rpx 30rpx 0 30rpx;
+}
+.header .order-status.data-v-57d42baa {
+  display: flex;
+  align-items: center;
+  height: 128rpx;
+}
+.header .order-status .status-icon.data-v-57d42baa {
+  width: 128rpx;
+  height: 128rpx;
+}
+.header .order-status .status-icon .image.data-v-57d42baa {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.header .order-status .status-text.data-v-57d42baa {
+  padding-left: 20rpx;
+  color: #fff;
+  font-size: 38rpx;
+  font-weight: bold;
+}
+.header .next-action.data-v-57d42baa {
+  display: flex;
+  align-items: center;
+  height: 128rpx;
+}
+.header .next-action .action-btn.data-v-57d42baa {
+  min-width: 152rpx;
+  height: 56rpx;
+  padding: 0 30rpx;
+  line-height: 56rpx;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 28rpx;
+  border-color: #666666;
+  cursor: pointer;
+  -webkit-user-select: none;
+          user-select: none;
+  color: #c7a157;
+}
+.i-card.data-v-57d42baa {
+  background: #fff;
+  padding: 24rpx 24rpx;
+  width: 94%;
+  box-shadow: 0 1rpx 5rpx 0px rgba(0, 0, 0, 0.05);
+  margin: 0 auto 20rpx auto;
+  border-radius: 20rpx;
+}
+.delivery-address.data-v-57d42baa {
+  margin-top: -50rpx;
+}
+.delivery-address .link-man.data-v-57d42baa {
+  line-height: 46rpx;
+  color: #333;
+}
+.delivery-address .link-man .name.data-v-57d42baa {
+  margin-right: 10rpx;
+}
+.delivery-address .address.data-v-57d42baa {
+  margin-top: 12rpx;
+  color: #999;
+  font-size: 24rpx;
+}
+.delivery-address .address .detail.data-v-57d42baa {
+  margin-left: 6rpx;
+}
+.express.data-v-57d42baa {
+  display: flex;
+  align-items: center;
+}
+.express .main.data-v-57d42baa {
+  flex: 1;
+}
+.express .info-item.data-v-57d42baa {
+  display: flex;
+  margin-bottom: 24rpx;
+}
+.express .info-item.data-v-57d42baa:last-child {
+  margin-bottom: 0;
+}
+.express .info-item .item-lable.data-v-57d42baa {
+  display: flex;
+  align-items: center;
+  font-size: 24rpx;
+  color: #999;
+  margin-right: 30rpx;
+}
+.express .info-item .item-content.data-v-57d42baa {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  font-size: 26rpx;
+  color: #333;
+}
+.express .info-item .item-content .act-copy.data-v-57d42baa {
+  margin-left: 20rpx;
+  padding: 2rpx 20rpx;
+  font-size: 22rpx;
+  color: #666;
+  border: 1rpx solid #c1c1c1;
+  border-radius: 16rpx;
+}
+.express .right-arrow.data-v-57d42baa {
+  margin-left: 16rpx;
+  font-size: 26rpx;
+}
+.goods-list .goods-item.data-v-57d42baa {
+  margin-bottom: 40rpx;
+}
+.goods-list .goods-item.data-v-57d42baa:last-child {
+  margin-bottom: 0;
+}
+.goods-list .goods-item .goods-main.data-v-57d42baa {
+  display: flex;
+}
+.goods-list .goods-item .goods-image.data-v-57d42baa {
+  width: 180rpx;
+  height: 180rpx;
+}
+.goods-list .goods-item .goods-image .image.data-v-57d42baa {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 8rpx;
+}
+.goods-list .goods-item .goods-content.data-v-57d42baa {
+  flex: 1;
+  padding-left: 16rpx;
+  padding-top: 16rpx;
+}
+.goods-list .goods-item .goods-content .goods-title.data-v-57d42baa {
+  font-size: 26rpx;
+  max-height: 76rpx;
+}
+.goods-list .goods-item .goods-content .goods-props.data-v-57d42baa {
+  margin-top: 14rpx;
+  height: 40rpx;
+  color: #ababab;
+  font-size: 24rpx;
+  overflow: hidden;
+}
+.goods-list .goods-item .goods-content .goods-props .goods-props-item.data-v-57d42baa {
+  display: inline-block;
+  margin-right: 14rpx;
+  padding: 4rpx 16rpx;
+  border-radius: 12rpx;
+  background-color: #F5F5F5;
+  width: auto;
+}
+.goods-list .goods-item .goods-trade.data-v-57d42baa {
+  padding-top: 16rpx;
+  width: 150rpx;
+  text-align: right;
+  color: #999;
+  font-size: 26rpx;
+}
+.goods-list .goods-item .goods-trade .goods-price.data-v-57d42baa {
+  vertical-align: bottom;
+  margin-bottom: 16rpx;
+}
+.goods-list .goods-item .goods-trade .goods-price .unit.data-v-57d42baa {
+  margin-right: -2rpx;
+  font-size: 24rpx;
+}
+.goods-list .goods-item .goods-refund.data-v-57d42baa {
+  display: flex;
+  justify-content: flex-end;
+}
+.goods-list .goods-item .goods-refund .stata-text.data-v-57d42baa {
+  font-size: 24rpx;
+  color: #999;
+}
+.goods-list .goods-item .goods-refund .action-btn.data-v-57d42baa {
+  border-radius: 28rpx;
+  padding: 8rpx 26rpx;
+  font-size: 24rpx;
+  color: #383838;
+  border: 1rpx solid #a8a8a8;
+}
+.order-info .info-item.data-v-57d42baa {
+  display: flex;
+  margin-bottom: 24rpx;
+}
+.order-info .info-item.data-v-57d42baa:last-child {
+  margin-bottom: 0;
+}
+.order-info .info-item .item-lable.data-v-57d42baa {
+  display: flex;
+  align-items: center;
+  font-size: 24rpx;
+  color: #999;
+  margin-right: 30rpx;
+}
+.order-info .info-item .item-content.data-v-57d42baa {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  font-size: 26rpx;
+  color: #333;
+}
+.order-info .info-item .item-content .act-copy.data-v-57d42baa {
+  margin-left: 20rpx;
+  padding: 2rpx 20rpx;
+  font-size: 22rpx;
+  color: #666;
+  border: 1rpx solid #c1c1c1;
+  border-radius: 16rpx;
+}
+.trade-info .info-item.data-v-57d42baa {
+  display: flex;
+  margin-bottom: 24rpx;
+}
+.trade-info .info-item .item-lable.data-v-57d42baa {
+  font-size: 24rpx;
+  color: #999;
+  margin-right: 24rpx;
+}
+.trade-info .info-item .item-content.data-v-57d42baa {
+  flex: 1;
+  font-size: 26rpx;
+  color: #333;
+  text-align: right;
+}
+.trade-info .divider.data-v-57d42baa {
+  height: 1rpx;
+  background: #f1f1f1;
+  margin-bottom: 24rpx;
+}
+.trade-info .trade-total.data-v-57d42baa {
+  display: flex;
+  justify-content: flex-end;
+}
+.trade-info .trade-total .goods-price.data-v-57d42baa {
+  margin-left: 12rpx;
+  vertical-align: bottom;
+  color: #fa2209;
+}
+.trade-info .trade-total .goods-price .unit.data-v-57d42baa {
+  margin-right: -2rpx;
+  font-size: 24rpx;
+}
+/* 底部操作栏 */
+.footer-fixed.data-v-57d42baa {
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  z-index: 11;
+  box-shadow: 0 -4rpx 40rpx 0 rgba(151, 151, 151, 0.24);
+  background: #fff;
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.footer-fixed .btn-wrapper.data-v-57d42baa {
+  height: 106rpx;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 30rpx;
+}
+.footer-fixed .btn-item.data-v-57d42baa {
+  min-width: 164rpx;
+  border-radius: 28rpx;
+  padding: 10rpx 24rpx;
+  font-size: 28rpx;
+  color: #383838;
+  text-align: center;
+  border: 1rpx solid #a8a8a8;
+  margin-left: 24rpx;
+}
+.footer-fixed .btn-item.active.data-v-57d42baa {
+  color: #fff;
+  border: none;
+  background: linear-gradient(to right, #f9211c, #ff6335);
+}
+.pay-popup.data-v-57d42baa {
+  padding: 24rpx;
+}
+.pay-popup .title.data-v-57d42baa {
+  font-size: 30rpx;
+  margin-bottom: 50rpx;
+  font-weight: bold;
+  text-align: center;
+}
+.pay-popup .pop-content.data-v-57d42baa {
+  min-height: 260rpx;
+  padding: 0 10rpx;
+}
+.pay-popup .pop-content .pay-item.data-v-57d42baa {
+  padding: 20rpx 35rpx;
+  font-size: 28rpx;
+  border-bottom: 1rpx solid #f1f1f1;
+}
+.pay-popup .pop-content .pay-item.data-v-57d42baa:last-child {
+  border-bottom: none;
+}
+.pay-popup .pop-content .pay-item .item-left_icon.data-v-57d42baa {
+  margin-right: 20rpx;
+  font-size: 32rpx;
+}
+.pay-popup .pop-content .pay-item .item-left_icon.wechat.data-v-57d42baa {
+  color: #00c800;
+}
+.pay-popup .pop-content .pay-item .item-left_icon.balance.data-v-57d42baa {
+  color: #ff9700;
+}
+

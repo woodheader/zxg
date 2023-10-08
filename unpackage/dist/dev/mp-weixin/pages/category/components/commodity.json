@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "mescroll-body": "/components/mescroll-uni/mescroll-body",
+    "empty": "/components/empty/index",
+    "add-cart-btn": "/components/add-cart-btn/index",
+    "add-cart-popup": "/components/add-cart-popup/index"
+  }
+}

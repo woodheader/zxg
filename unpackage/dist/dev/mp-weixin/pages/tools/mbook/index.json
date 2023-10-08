@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "便民电话本",
+  "navigationBarBackgroundColor": "#01b9e5",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "empty": "/components/empty/index",
+    "dialog": "/components/dialog/index"
+  }
+}

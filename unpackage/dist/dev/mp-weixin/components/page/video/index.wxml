@@ -1,0 +1,1 @@
+<view class="diy-video data-v-3990ecf9" style="{{'padding:'+(itemStyle.paddingTop+'px 0')+';'}}"><video class="video data-v-3990ecf9" style="{{'height:'+(itemStyle.height+'px')+';'}}" src="{{params.videoUrl}}" poster="{{params.poster}}" autoplay="{{params.autoplay==1}}" controls="{{true}}"></video></view>

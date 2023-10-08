@@ -1,0 +1,393 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 引入uView全局scss变量文件 */
+.toBind.data-v-137d5072 {
+  text-align: center;
+  padding: 40rpx 0 14rpx 0;
+}
+.toBind2.data-v-137d5072 {
+  text-align: center;
+  font-size: 20rpx;
+  padding: 0rpx 0 26rpx 0;
+  font-weight: 700;
+}
+.main-header.data-v-137d5072 {
+  background-color: #fff;
+  position: relative;
+  width: 100%;
+  height: 400rpx;
+  background-size: 100% 100%;
+  overflow: hidden;
+  display: flex;
+  padding-left: 40rpx;
+}
+.main-header .bg-image.data-v-137d5072 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background: #E6C48D;
+}
+.main-header .user-info-wrap.data-v-137d5072 {
+  z-index: 1;
+  margin-top: 40rpx;
+}
+.main-header .user-info-wrap .user-info-content.data-v-137d5072 {
+  display: flex;
+}
+.main-header .user-info-wrap .user-info-content .user-content.data-v-137d5072 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30rpx;
+  color: #c59a46;
+}
+.main-header .user-info-wrap .user-info-content .user-content .nick-name.data-v-137d5072 {
+  font-size: 40rpx;
+  font-weight: bold;
+  max-width: 270rpx;
+  color: #927444;
+}
+.main-header .user-info-wrap .user-info-content .user-content .mobile.data-v-137d5072 {
+  margin-top: 15rpx;
+  font-size: 28rpx;
+}
+.main-header .user-info-wrap .user-info-content .user-content .user-grade.data-v-137d5072 {
+  align-self: baseline;
+  display: flex;
+  align-items: center;
+  background: #3c3c3c;
+  margin-top: 12rpx;
+  border-radius: 10rpx;
+  padding: 4rpx 12rpx;
+}
+.main-header .user-info-wrap .user-info-content .user-content .user-grade .user-grade_icon .image.data-v-137d5072 {
+  display: block;
+  width: 32rpx;
+  height: 32rpx;
+}
+.main-header .user-info-wrap .user-info-content .user-content .user-grade .user-grade_name.data-v-137d5072 {
+  margin-left: 5rpx;
+  font-size: 26rpx;
+  color: #EEE0C3;
+}
+.main-header .user-info-wrap .user-info-content .user-content .login-tips.data-v-137d5072 {
+  margin-top: 12rpx;
+  font-size: 26rpx;
+}
+.item-badge.data-v-137d5072 {
+  position: absolute;
+  top: 0;
+  right: 55rpx;
+  background: #fa2209;
+  color: #fff;
+  border-radius: 100%;
+  min-width: 38rpx;
+  height: 38rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rpx;
+  font-size: 24rpx;
+}
+.user-card.data-v-137d5072 {
+  position: relative;
+  margin: 10rpx 40rpx;
+  background: linear-gradient(135deg, #504D55, #2C2B31);
+  border-radius: 30rpx;
+  margin-top: -100px;
+  z-index: 999;
+  padding: 30rpx 30rpx;
+  color: #fff;
+}
+.user-card .integral-title.data-v-137d5072 {
+  font-size: 32rpx;
+}
+.user-card .integral-title text.data-v-137d5072 {
+  font-size: 28rpx;
+  margin-left: 10rpx;
+}
+.user-card .integral-tip.data-v-137d5072 {
+  margin-top: 20rpx;
+  display: flex;
+}
+.user-card .integral-tip .integral.data-v-137d5072 {
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.user-card .integral-tip .integral text.data-v-137d5072 {
+  font-size: 24rpx;
+}
+.user-card .integral-tip .integral .points.data-v-137d5072 {
+  color: #FFFAEA;
+  font-size: 52rpx;
+  margin-right: 20rpx;
+}
+.user-card .integral-tip .no-login.data-v-137d5072 {
+  margin-left: 40rpx;
+}
+.user-card .privilege.data-v-137d5072 {
+  color: #F5DFA2;
+  margin-top: 50rpx;
+}
+.user-card .privilege .title.data-v-137d5072 {
+  display: flex;
+  font-size: 32rpx;
+  justify-content: space-between;
+}
+.user-card .privilege .title .all.data-v-137d5072 {
+  font-size: 28rpx;
+  color: #908670;
+}
+.user-card .privilege .asset-left-item.data-v-137d5072 {
+  max-width: 183rpx;
+  text-align: center;
+  padding: 0 16rpx;
+}
+.user-card .privilege .asset-left-item .item-value.data-v-137d5072 {
+  font-size: 34rpx;
+}
+.user-card .privilege .asset-left-item .item-value .wyiconfont.data-v-137d5072 {
+  font-size: 60rpx;
+}
+.user-card .privilege .asset-left-item .item-name.data-v-137d5072 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 6rpx;
+}
+.user-card .privilege .asset-left-item .item-name .oneline-small.data-v-137d5072 {
+  font-size: 24rpx;
+  color: #CE9266;
+}
+.user-card .privilege .asset-left-item .item-name.data-v-137d5072 {
+  margin-top: 14rpx;
+  font-size: 28rpx;
+}
+.user-card .privilege .title.data-v-137d5072 {
+  font-weight: bold;
+}
+.user-card .privilege .balance.data-v-137d5072 {
+  margin: 20rpx 0;
+}
+.user-card .privilege .asset-left-item.data-v-137d5072 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.order-navbar.data-v-137d5072 {
+  margin: 20rpx auto;
+  padding: 20rpx 30rpx;
+  width: 94%;
+  box-shadow: 0 1rpx 5rpx 0px rgba(0, 0, 0, 0.05);
+  border-radius: 10rpx;
+  background: #fff;
+}
+.order-navbar .title.data-v-137d5072 {
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.order-navbar .order-wrap.data-v-137d5072 {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 40rpx;
+}
+.order-navbar .order-wrap .order-item.data-v-137d5072 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #666;
+}
+.order-navbar .order-wrap .order-item .wyiconfont.data-v-137d5072 {
+  color: #FF5E40;
+  font-size: 80rpx;
+  margin-right: 10rpx;
+}
+.order-navbar .order-wrap.data-v-137d5072::before {
+  content: '';
+  width: 2rpx;
+  height: 80%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  background-color: #DDEAFF;
+}
+.order-navbar-item.data-v-137d5072 {
+  position: relative;
+  width: 25%;
+}
+.order-navbar-item .item-icon.data-v-137d5072 {
+  text-align: center;
+  margin: 0 auto;
+  padding: 10rpx 0;
+  color: #545454;
+  font-size: 44rpx;
+}
+.order-navbar-item .item-name.data-v-137d5072 {
+  font-size: 28rpx;
+  color: #545454;
+  text-align: center;
+  margin-right: 10rpx;
+}
+.noLogin.data-v-137d5072 {
+  margin: 20rpx auto;
+  padding: 20rpx 30rpx;
+  width: 94%;
+  box-shadow: 0 1rpx 5rpx 0px rgba(0, 0, 0, 0.05);
+  border-radius: 10rpx;
+  background: #fff;
+}
+.noLogin .title.data-v-137d5072 {
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.noLogin .room-manager.data-v-137d5072 {
+  font-size: 34rpx;
+  margin-top: 30rpx;
+  color: #4DA0F3;
+  font-weight: normal;
+}
+.section.data-v-137d5072 {
+  margin: 20rpx auto;
+  padding: 20rpx 30rpx;
+  width: 94%;
+  box-shadow: 0 1rpx 5rpx 0px rgba(0, 0, 0, 0.05);
+  border-radius: 10rpx;
+  background: #fff;
+  position: relative;
+}
+.section .header.data-v-137d5072 {
+  display: flex;
+  justify-content: space-between;
+}
+.section .header .title.data-v-137d5072 {
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.section .header .title-right .room-manager.data-v-137d5072 {
+  display: flex;
+  align-items: center;
+  color: #FFC27C;
+}
+.section .header .title-right .room-manager .wyiconfont.data-v-137d5072 {
+  font-size: 50rpx;
+}
+.section .section-wrap.data-v-137d5072 {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 40rpx;
+}
+.section .section-wrap .room.data-v-137d5072 {
+  font-size: 30rpx;
+  color: #808080;
+  padding: 0 0 50rpx 0;
+}
+.section .section-wrap .room .roomInfo.data-v-137d5072 {
+  display: flex;
+  flex-direction: column;
+}
+.section .section-wrap .room .please-login.data-v-137d5072 {
+  font-size: 34rpx;
+  margin-top: 10rpx;
+}
+.section .section-wrap .room .add-room.data-v-137d5072 {
+  font-size: 34rpx;
+  margin-top: 10rpx;
+  color: #4DA0F3;
+}
+.section .contact.data-v-137d5072 {
+  position: absolute;
+  top: 30rpx;
+  right: 30rpx;
+}
+.section .contact .wyiconfont.data-v-137d5072 {
+  font-size: 60rpx;
+}
+.section .contact.data-v-137d5072 button::after, .section .contact.data-v-137d5072::after {
+  display: none;
+}
+.my-service.data-v-137d5072 {
+  margin: 22rpx auto 22rpx auto;
+  padding: 22rpx 0;
+  width: 94%;
+  box-shadow: 0 1rpx 5rpx 0px rgba(0, 0, 0, 0.05);
+  border-radius: 5rpx;
+  background: #fff;
+}
+.my-service .service-title.data-v-137d5072 {
+  padding: 20rpx 30rpx;
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.my-service .service-content.data-v-137d5072 {
+  margin-bottom: -20rpx;
+}
+.my-service .service-content .service-item.data-v-137d5072 {
+  position: relative;
+  width: 25%;
+  float: left;
+  margin-bottom: 30rpx;
+}
+.my-service .service-content .service-item .item-icon.data-v-137d5072 {
+  text-align: center;
+  margin: 0 auto;
+  padding: 14rpx 0;
+  font-size: 44rpx;
+}
+.my-service .service-content .service-item .item-icon .wyiconfont.data-v-137d5072 {
+  font-size: 44rpx !important;
+}
+.my-service .service-content .service-item .item-name.data-v-137d5072 {
+  font-size: 28rpx;
+  color: #545454;
+  text-align: center;
+  margin-right: 10rpx;
+}
+.my-logout.data-v-137d5072 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50rpx;
+  margin-bottom: 50rpx;
+}
+.my-logout .logout-btn.data-v-137d5072 {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 28rpx;
+  color: #616161;
+  border-radius: 20rpx;
+  border: 1px solid #dcdcdc;
+  padding: 16rpx 0;
+  text-align: center;
+}
+

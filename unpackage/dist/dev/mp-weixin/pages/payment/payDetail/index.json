@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "账单详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-switch": "/uview-ui/components/u-switch/u-switch"
+  }
+}

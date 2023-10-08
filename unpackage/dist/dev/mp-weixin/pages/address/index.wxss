@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 引入uView全局scss变量文件 */
+.addres-list.data-v-5f170bce {
+  padding-top: 20rpx;
+  padding-bottom: calc(constant(safe-area-inset-bottom) + 140rpx);
+  padding-bottom: calc(env(safe-area-inset-bottom) + 140rpx);
+}
+.address-item.data-v-5f170bce {
+  margin: 20rpx auto 20rpx auto;
+  padding: 30rpx 40rpx;
+  width: 94%;
+  box-shadow: 0 1rpx 5rpx 0px rgba(0, 0, 0, 0.05);
+  border-radius: 16rpx;
+  background: #fff;
+}
+.contacts.data-v-5f170bce {
+  font-size: 30rpx;
+  margin-bottom: 16rpx;
+}
+.contacts .name.data-v-5f170bce {
+  margin-right: 16rpx;
+}
+.address.data-v-5f170bce {
+  font-size: 28rpx;
+}
+.address .region.data-v-5f170bce {
+  margin-right: 10rpx;
+}
+.line.data-v-5f170bce {
+  margin: 20rpx 0;
+  border-bottom: 1rpx solid #f3f3f3;
+}
+.item-option.data-v-5f170bce {
+  display: flex;
+  justify-content: space-between;
+  height: 48rpx;
+}
+.item-option .item-radio.data-v-5f170bce {
+  font-size: 28rpx;
+}
+.item-option .item-radio .radio.data-v-5f170bce {
+  vertical-align: middle;
+  -webkit-transform: scale(0.76);
+          transform: scale(0.76);
+}
+.item-option .item-radio .text.data-v-5f170bce {
+  vertical-align: middle;
+}
+.item-option .events.data-v-5f170bce {
+  display: flex;
+  align-items: center;
+  line-height: 48rpx;
+}
+.item-option .events .event-item.data-v-5f170bce {
+  font-size: 28rpx;
+  margin-right: 26rpx;
+  color: #4c4c4c;
+}
+.item-option .events .event-item.data-v-5f170bce:last-child {
+  margin-right: 0;
+}
+.item-option .events .event-item .title.data-v-5f170bce {
+  margin-left: 8rpx;
+}
+.footer-fixed.data-v-5f170bce {
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  min-height: 120rpx;
+  z-index: 11;
+  box-shadow: 0 -4rpx 40rpx 0 rgba(151, 151, 151, 0.24);
+  background: #fff;
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.footer-fixed .btn-wrapper.data-v-5f170bce {
+  height: 120rpx;
+  display: flex;
+  align-items: center;
+  padding: 0 40rpx;
+}
+.footer-fixed .btn-item.data-v-5f170bce {
+  flex: 1;
+  font-size: 28rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  color: #fff;
+  border-radius: 50rpx;
+}
+.footer-fixed .btn-item-main.data-v-5f170bce {
+  background: linear-gradient(to right, #f9211c, #ff6335);
+}
+

@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "number-box": "/components/goods-sku-popup/number-box/index"
+  }
+}

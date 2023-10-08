@@ -1,0 +1,1 @@
+<view class="search-wrapper data-v-0f7112e6"><view data-event-opts="{{[['tap',[['onClick',['$event']]]]]}}" class="index-search data-v-0f7112e6" bindtap="__e"><view class="index-cont-search t-c data-v-0f7112e6"><text class="search-icon iconfont icon-search data-v-0f7112e6"></text><text class="search-text data-v-0f7112e6">{{tips}}</text></view></view></view>

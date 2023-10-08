@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-loading": "/uview-ui/components/u-loading/u-loading",
+    "u-select": "/uview-ui/components/u-select/u-select"
+  }
+}

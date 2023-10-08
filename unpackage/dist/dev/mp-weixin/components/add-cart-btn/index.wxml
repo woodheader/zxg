@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['handleAddCart',['$event']]]]]}}" class="add-cart data-v-b6d91dce" catchtap="__e"><text class="{{['icon','iconfont','data-v-b6d91dce','icon-jiagou'+btnStyle]}}"></text><block wx:if="{{cateTotal}}"><view class="_p data-v-b6d91dce">{{cateTotal}}</view></block></view>

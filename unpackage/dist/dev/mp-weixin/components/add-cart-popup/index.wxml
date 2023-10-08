@@ -1,0 +1,1 @@
+<goods-sku-popup vue-id="3f0bbf3d-1" value="{{visible}}" border-radius="20" localdata="{{localdata}}" mode="{{2}}" maskCloseAble="{{true}}" buyNowText="立即购买" data-event-opts="{{[['^input',[['onChangeValue']]],['^addCart',[['addCart']]],['^buyNow',[['buyNow']]]]}}" bind:input="__e" bind:addCart="__e" bind:buyNow="__e" class="data-v-02089ee9" bind:__l="__l"></goods-sku-popup>

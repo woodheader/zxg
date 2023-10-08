@@ -1,0 +1,11 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-modal": "/uview-ui/components/u-modal/u-modal",
+    "avatar-image": "/components/avatar-image/index",
+    "nav-bar": "/components/page/navBar/index",
+    "msg-notice": "/components/page/msgNotice/index"
+  }
+}

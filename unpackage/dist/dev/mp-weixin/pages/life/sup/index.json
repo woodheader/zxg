@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "待上门订单",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "mescroll-body": "/components/mescroll-uni/mescroll-body"
+  }
+}

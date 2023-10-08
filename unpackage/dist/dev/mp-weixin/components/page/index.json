@@ -1,0 +1,20 @@
+{
+  "component": true,
+  "usingComponents": {
+    "search": "/components/page/search/index",
+    "images": "/components/page/image/index",
+    "banner": "/components/page/banner/index",
+    "window": "/components/page/window/index",
+    "videos": "/components/page/video/index",
+    "article": "/components/page/article/index",
+    "notice": "/components/page/notice/index",
+    "nav-bar": "/components/page/navBar/index",
+    "goods": "/components/page/goods/index",
+    "service": "/components/page/service/index",
+    "blank": "/components/page/blank/index",
+    "guide": "/components/page/guide/index",
+    "rich-text": "/components/page/richText/index",
+    "msg-notice": "/components/page/msgNotice/index",
+    "life": "/components/page/life/index"
+  }
+}

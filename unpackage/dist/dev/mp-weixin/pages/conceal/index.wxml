@@ -1,0 +1,1 @@
+<view class="wrap data-v-5b8422a9"><view data-event-opts="{{[['tap',[['onXieyi',['$event']]]]]}}" class="item data-v-5b8422a9" bindtap="__e"><text class="data-v-5b8422a9">隐私政策</text><u-icon vue-id="1500b37d-1" name="arrow-right" class="data-v-5b8422a9" bind:__l="__l"></u-icon></view></view>

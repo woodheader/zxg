@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "全部分类",
+  "usingComponents": {
+    "search": "/components/search/index",
+    "empty": "/components/empty/index",
+    "primary": "/pages/category/components/primary",
+    "secondary": "/pages/category/components/secondary",
+    "commodity": "/pages/category/components/commodity"
+  }
+}

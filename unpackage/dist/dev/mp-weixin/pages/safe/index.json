@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "账号与安全",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-modal": "/uview-ui/components/u-modal/u-modal"
+  }
+}

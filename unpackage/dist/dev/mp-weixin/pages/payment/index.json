@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "我的物业",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-select": "/uview-ui/components/u-select/u-select",
+    "u-modal": "/uview-ui/components/u-modal/u-modal",
+    "u-switch": "/uview-ui/components/u-switch/u-switch"
+  }
+}

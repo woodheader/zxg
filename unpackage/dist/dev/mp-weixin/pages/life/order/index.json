@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "服务订单",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "mescroll-body": "/components/mescroll-uni/mescroll-body"
+  }
+}

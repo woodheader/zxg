@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "商品评价页",
+  "usingComponents": {
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u-rate": "/uview-ui/components/u-rate/u-rate",
+    "mescroll-body": "/components/mescroll-uni/mescroll-body",
+    "avatar-image": "/components/avatar-image/index"
+  }
+}

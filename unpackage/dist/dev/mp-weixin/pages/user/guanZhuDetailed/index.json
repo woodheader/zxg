@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "管珠明细",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#f7f7f7",
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-action-sheet": "/uview-ui/components/u-action-sheet/u-action-sheet",
+    "u-picker": "/uview-ui/components/u-picker/u-picker"
+  }
+}

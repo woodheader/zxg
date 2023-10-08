@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "优选",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "page": "/components/page/index"
+  }
+}

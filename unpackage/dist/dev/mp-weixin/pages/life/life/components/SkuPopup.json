@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "life-sku-popup": "/components/life/life-sku-popup/index"
+  }
+}

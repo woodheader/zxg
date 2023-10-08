@@ -1,0 +1,9 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-empty": "/uview-ui/components/u-empty/u-empty",
+    "search": "/components/page/search/index",
+    "nav-bar": "/components/page/navBar/index",
+    "page": "/components/page/index"
+  }
+}

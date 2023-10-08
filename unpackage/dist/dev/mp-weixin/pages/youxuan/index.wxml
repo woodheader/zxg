@@ -1,0 +1,1 @@
+<view><page vue-id="9e72617a-1" items="{{items}}" bind:__l="__l"></page></view>

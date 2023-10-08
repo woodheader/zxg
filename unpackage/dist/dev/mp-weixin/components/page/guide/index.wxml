@@ -1,0 +1,1 @@
+<view class="diy-guide data-v-5c09a63a" style="{{'padding:'+(itemStyle.paddingTop+'px 0')+';'+('background:'+(itemStyle.background)+';')}}"><view class="line data-v-5c09a63a" style="{{'border-top:'+(itemStyle.lineHeight+'px '+itemStyle.lineStyle+' '+itemStyle.lineColor)+';'}}"></view></view>

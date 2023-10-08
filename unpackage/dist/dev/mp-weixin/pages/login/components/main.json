@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "mp-weixin-mobile": "/pages/login/components/mp-weixin-mobile"
+  }
+}

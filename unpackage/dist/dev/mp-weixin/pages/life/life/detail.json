@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "服务详情页",
+  "usingComponents": {
+    "mp-html": "/uni_modules/mp-html/components/mp-html/mp-html",
+    "u-collapse-item": "/uview-ui/components/u-collapse-item/u-collapse-item",
+    "u-collapse": "/uview-ui/components/u-collapse/u-collapse",
+    "tab-type": "/pages/life/life/components/tabType",
+    "slide-image": "/pages/life/life/components/SlideImage",
+    "sku-popup": "/pages/life/life/components/SkuPopup",
+    "comment": "/pages/life/life/components/Comment",
+    "service": "/pages/life/life/components/Service",
+    "time": "/pages/life/life/components/Time"
+  }
+}

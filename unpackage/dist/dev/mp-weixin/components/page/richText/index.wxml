@@ -1,0 +1,1 @@
+<view class="diy-richText data-v-4a985601" style="{{'padding:'+(itemStyle.paddingTop+'px '+itemStyle.paddingLeft+'px')+';'+('background:'+(itemStyle.background)+';')}}"><mp-html vue-id="0872eb25-1" content="{{params.content}}" class="data-v-4a985601" bind:__l="__l"></mp-html></view>

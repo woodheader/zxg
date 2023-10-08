@@ -1,0 +1,186 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 引入uView全局scss变量文件 */
+page.data-v-6ede53b4 {
+  background-color: #fff;
+}
+.wrap .top.data-v-6ede53b4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #f1f1f1;
+  padding: 0 30rpx 0 30rpx;
+  height: 100rpx;
+  background-color: #f7f7f7;
+}
+.wrap .top .top-left.data-v-6ede53b4 {
+  font-size: 32rpx;
+}
+.wrap .top .top-left .down-icon.data-v-6ede53b4 {
+  margin-left: 10rpx;
+}
+.wrap .top .top-right.data-v-6ede53b4 {
+  display: flex;
+  align-items: center;
+}
+.wrap .top .top-right .beginTime.data-v-6ede53b4 {
+  display: flex;
+  align-items: center;
+  margin-right: 30rpx;
+}
+.wrap .top .top-right .finishTime.data-v-6ede53b4 {
+  margin-left: 30rpx;
+}
+.wrap .bill-item .bill_block.data-v-6ede53b4 {
+  background-color: #fff;
+  padding: 0 30rpx;
+}
+.wrap .bill-item .bill_block .bill_block_title.data-v-6ede53b4 {
+  padding: 10rpx 0;
+}
+.wrap .bill-item .bill_block .bill_block_content .bottom-txt.data-v-6ede53b4 {
+  text-align: center;
+  color: #C0C0C0;
+  font-size: 28rpx;
+  padding: 40rpx 0;
+}
+.wrap .bill-item .bill_block .bill_block_tips.data-v-6ede53b4 {
+  display: inline-block;
+  width: 150rpx;
+}
+.wrap .bill-item .bill-title.data-v-6ede53b4 {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  background-color: #fff;
+  padding: 30rpx 30rpx;
+  border-bottom: 1px solid #f2f2f2;
+}
+.wrap .bill-item .bill-title .left .item + .item.data-v-6ede53b4 {
+  margin-left: 10rpx;
+}
+.wrap .bill-item .bill-list .bill-order-item.data-v-6ede53b4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 30rpx 0;
+  border-bottom: 1rpx solid #f2f2f2;
+}
+.wrap .bill-item .bill-list .bill-order-item .desc-point-wrap.data-v-6ede53b4 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.wrap .bill-item .bill-list .bill-order-item .desc-point-wrap .desc.data-v-6ede53b4 {
+  font-size: 32rpx;
+}
+.wrap .bill-item .bill-list .bill-order-item .desc-point-wrap .point.data-v-6ede53b4 {
+  color: #BA8C4F;
+  display: flex;
+  align-items: center;
+}
+.wrap .bill-item .bill-list .bill-order-item .desc-point-wrap .point .txt.data-v-6ede53b4 {
+  color: #333;
+  font-size: 32rpx;
+  margin-right: 8rpx;
+}
+.wrap .bill-item .bill-list .bill-order-item .subtitle.data-v-6ede53b4 {
+  color: #5B5B5B;
+  margin: 14rpx 0;
+}
+.wrap .bill-item .bill-list .bill-order-item .subtitle .log_tag.data-v-6ede53b4 {
+  color: #999;
+}
+.wrap .bill-item .bill-list .bill-order-item .desc_bottom.data-v-6ede53b4 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16rpx;
+}
+.wrap .bill-item .bill-list .bill-order-item .desc_bottom .time.data-v-6ede53b4 {
+  font-size: 26rpx;
+  color: #ADADAD;
+}
+.wrap .bill-item .bill-list .bill-order-item .desc_bottom .text.data-v-6ede53b4 {
+  font-size: 26rpx;
+  color: #ADADAD;
+}
+.wrap .bill-item .bill-list .bill-order-item .no_pay.data-v-6ede53b4 {
+  color: #FFFFFF;
+  background-color: #007AFF;
+  border-radius: 10rpx;
+}
+.wrap .bill-item .bill-list .bill-order-item .pay.data-v-6ede53b4 {
+  color: #FFFFFF;
+  background-color: #aaaa7f;
+  border-radius: 10rpx;
+}
+.wrap .bill-item .bill-list .bill-order-item .title .title-item.data-v-6ede53b4 {
+  display: flex;
+  font-size: 24rpx;
+  color: #999;
+}
+.wrap .bill-item .bill-list .bill-order-item .title .title-item .item.data-v-6ede53b4 {
+  padding-right: 10rpx;
+  position: relative;
+}
+.wrap .bill-item .bill-list .bill-order-item .title .title-item .item.data-v-6ede53b4::after {
+  position: absolute;
+  content: '';
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 2rpx;
+  height: 24rpx;
+  background-color: #999;
+}
+.wrap .bill-item .bill-list .bill-order-item .title .title-item .item + .item.data-v-6ede53b4 {
+  margin-left: 10rpx;
+}
+.wrap .bill-item .bill-list .bill-order-item .title .title-item .item.data-v-6ede53b4:last-child::after {
+  display: none;
+}
+.wrap .bill-item .bill-list .bill-order-item .title .title-item + .title-item.data-v-6ede53b4 {
+  margin-top: 10rpx;
+}
+.wrap .bill-item .bill-list .bill-order-item .title .price-wrap.data-v-6ede53b4 {
+  margin-top: 20rpx;
+  font-weight: 700;
+}
+.wrap .bill-item .bill-list .bill-order-item .title .price-wrap .price.data-v-6ede53b4 {
+  color: #f00;
+}
+.wrap .bill-item .bill-list .bill-order-item .title .price-wrap .guanzhu.data-v-6ede53b4 {
+  color: #f00;
+  font-size: 24rpx;
+  margin-left: 20rpx;
+}
+.wrap .bill-item .bill-list .bill-order-item + .bill-item.data-v-6ede53b4 {
+  margin-top: 20rpx;
+}
+

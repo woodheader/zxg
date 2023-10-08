@@ -1,0 +1,551 @@
+{
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "#218cfe",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home-active.png",
+				"text": "首页"
+			}, {
+				"pagePath": "pages/life/index",
+				"iconPath": "static/tabbar/cate.png",
+				"selectedIconPath": "static/tabbar/cate-active.png",
+				"text": "服务"
+			},
+			{
+				"pagePath": "pages/youxuan/index",
+				"iconPath": "static/tabbar/cart.png",
+				"selectedIconPath": "static/tabbar/cart-active.png",
+				"text": "商城"
+			}, {
+				"pagePath": "pages/user/index",
+				"iconPath": "static/tabbar/user.png",
+				"selectedIconPath": "static/tabbar/user-active.png",
+				"text": "我的"
+			}
+		]
+	},
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/category/index",
+			"style": {
+				"navigationBarTitleText": "全部分类"
+			}
+		},
+		{
+			"path": "pages/cart/index",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				// "navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": true
+				// "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/custom/index",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/search/index",
+			"style": {
+				"navigationBarTitleText": "商品搜索"
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "会员登录"
+			}
+		},
+		{
+			"path": "pages/user/bind/index",
+			"style": {
+				"navigationBarTitleText": "绑定手机"
+			}
+		},
+		{
+			"path": "pages/user/personal/index",
+			"style": {
+				"navigationBarTitleText": "个人信息"
+			}
+		},
+		{
+			"path": "pages/article/index",
+			"style": {
+				"navigationBarTitleText": "资讯列表"
+			}
+		},
+		{
+			"path": "pages/article/detail",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/help/index",
+			"style": {
+				"navigationBarTitleText": "帮助中心"
+			}
+		},
+		{
+			"path": "pages/coupon/index",
+			"style": {
+				"navigationBarTitleText": "领券中心"
+			}
+		},
+		{
+			"path": "pages/goods/list",
+			"style": {
+				"navigationBarTitleText": "商品列表",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/goods/detail",
+			"style": {
+				"navigationBarTitleText": "商品详情页"
+			}
+		},
+		{
+			"path": "pages/comment/index",
+			"style": {
+				"navigationBarTitleText": "商品评价页"
+			}
+		},
+		{
+			"path": "pages/my-coupon/index",
+			"style": {
+				"navigationBarTitleText": "我的优惠券"
+			}
+		},
+		{
+			"path": "pages/address/index",
+			"style": {
+				"navigationBarTitleText": "收货地址"
+			}
+		},
+		{
+			"path": "pages/address/create",
+			"style": {
+				"navigationBarTitleText": "新增收货地址"
+			}
+		},
+		{
+			"path": "pages/address/update",
+			"style": {
+				"navigationBarTitleText": "编辑收货地址"
+			}
+		},
+		{
+			"path": "pages/points/log",
+			"style": {
+				"navigationBarTitleText": "账单明细"
+			}
+		},
+		{
+			"path": "pages/wallet/index",
+			"style": {
+				"navigationBarTitleText": "我的钱包"
+			}
+		},
+		{
+			"path": "pages/wallet/balance/log",
+			"style": {
+				"navigationBarTitleText": "账单详情"
+			}
+		},
+		{
+			"path": "pages/wallet/recharge/index",
+			"style": {
+				"navigationBarTitleText": "充值中心"
+			}
+		},
+		{
+			"path": "pages/wallet/recharge/order",
+			"style": {
+				"navigationBarTitleText": "充值记录"
+			}
+		},
+		{
+			"path": "pages/checkout/index",
+			"style": {
+				"navigationBarTitleText": "订单结算台"
+			}
+		},
+		{
+			"path": "pages/order/index",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/order/detail",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#e8c269"
+			}
+		},
+		{
+			"path": "pages/order/express/index",
+			"style": {
+				"navigationBarTitleText": "物流跟踪"
+			}
+		},
+		{
+			"path": "pages/order/comment/index",
+			"style": {
+				"navigationBarTitleText": "订单评价"
+			}
+		},
+		{
+			"path": "pages/refund/index",
+			"style": {
+				"navigationBarTitleText": "退换/售后"
+			}
+		},
+		{
+			"path": "pages/refund/detail",
+			"style": {
+				"navigationBarTitleText": "售后详情"
+			}
+		},
+		{
+			"path": "pages/refund/apply",
+			"style": {
+				"navigationBarTitleText": "申请售后"
+			}
+		}, {
+			"path": "pages/payment/index",
+			"style": {
+				"navigationBarTitleText": "我的物业",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/payment/payDetail/index",
+			"style": {
+				"navigationBarTitleText": "账单详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/payment/recordDetail/index",
+			"style": {
+				"navigationBarTitleText": "缴费详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/add-member/index",
+			"style": {
+				"navigationBarTitleText": "成员管理",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/life/index",
+			"style": {
+				"navigationBarTitleText": "生活服务",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/youxuan/index",
+			"style": {
+				"navigationBarTitleText": "优选",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/set/index",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/safe/index",
+			"style": {
+				"navigationBarTitleText": "账号与安全",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/conceal/index",
+			"style": {
+				"navigationBarTitleText": "服务与隐私",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/allPrivilege/allPrivilege",
+			"style": {
+				"navigationBarTitleText": "知珠生活",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/allPrivilegeDetail/index",
+			"style": {
+				"navigationBarTitleText": "特权详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/addRoom/index",
+			"style": {
+				"navigationBarTitleText": "添加房屋",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/setRoom/index",
+			"style": {
+				"navigationBarTitleText": "房屋管理",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+		, {
+			"path": "pages/user/guanzhu/index",
+			"style": {
+				"navigationBarTitleText": "知珠生活",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/aboutUs/index",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/telLogin",
+			"style": {
+				"navigationBarTitleText": "手机号登录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/guanZhuDetailed/index",
+			"style": {
+				"navigationBarTitleText": "知珠明细",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#f7f7f7"
+			}
+
+		},
+		{
+			"path": "pages/life/life/list",
+			"style": {
+				"navigationBarTitleText": "服务列表",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/life/life/detail",
+			"style": {
+				"navigationBarTitleText": "服务详情页"
+			}
+		},
+		{
+			"path": "pages/life/comment/index",
+			"style": {
+				"navigationBarTitleText": "服务评价页"
+			}
+		},
+		{
+			"path": "pages/life/order/index",
+			"style": {
+				"navigationBarTitleText": "服务订单",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/life/order/detail",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#e8c269"
+			}
+		},
+		{
+			"path": "pages/life/order/express/index",
+			"style": {
+				"navigationBarTitleText": "物流跟踪"
+			}
+		},
+		{
+			"path": "pages/life/order/comment/index",
+			"style": {
+				"navigationBarTitleText": "订单评价"
+			}
+		},
+		{
+			"path": "pages/life/sup/index",
+			"style": {
+				"navigationBarTitleText": "待上门订单",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/tools/mbook/index",
+			"style": {
+				"navigationBarTitleText": "便民电话本",
+				"navigationBarBackgroundColor": "#01b9e5",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/tools/houseKeep/index",
+			"style": {
+				"navigationBarTitleText": "管家服务",
+				"navigationBarBackgroundColor": "#01b9e5",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/tools/interaction/index",
+			"style": {
+				"navigationBarTitleText": "互动中心",
+				"navigationBarBackgroundColor": "#01b9e5",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+
+			}
+
+		}, {
+			"path": "pages/tools/interaction/detailes/detailes",
+			"style": {
+				"navigationBarTitleText": "互动中心详情",
+				"navigationBarBackgroundColor": "#01b9e5",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/tools/wy_service/wy_service",
+			"style": {
+				"navigationBarTitleText": "物业服务",
+				"navigationBarBackgroundColor": "#01b9e5",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/tools/wy_service/ServiceList",
+			"style": {
+				"navigationBarTitleText": "日志列表",
+				"navigationBarBackgroundColor": "#01b9e5",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/tools/complaint/index",
+			"style": {
+				"navigationBarTitleText": "投诉中心",
+				"navigationBarBackgroundColor": "#01b9e5",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/tools/complaint/appendix/appendix",
+			"style": {
+				"navigationBarTitleText": "填写意见",
+				"navigationBarBackgroundColor": "#01b9e5",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+
+		},{
+			"path": "pages/tools/wy_service/ServiceDetail",
+			"style": {
+				"navigationBarTitleText": "日志详情",
+				"navigationBarBackgroundColor": "#01b9e5",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    ,{
+            "path" : "pages/tools/complaint/appendDetail/appendDetail",
+            "style" :
+            {
+                "navigationBarTitleText": "意见详情",
+				"navigationBarBackgroundColor": "#01b9e5",
+				"navigationBarTextStyle": "white",
+                "enablePullDownRefresh": false
+            }
+        },
+		{
+			"path": "pages/jjz/index",
+			"style": {
+				"navigationBarTitleText": "进京证",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/jjz/create",
+			"style": {
+				"navigationBarTitleText": "添加车辆",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/jjz/update",
+			"style": {
+				"navigationBarTitleText": "编辑车辆",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/jjz/carlog",
+			"style": {
+				"navigationBarTitleText": "办理日志",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"globalStyle": {
+		// #ifdef H5
+		// "navigationStyle": "custom",
+		"maxWidth": 750,
+		"rpxCalcMaxDeviceWidth": 750, // rpx 计算所支持的最大设备宽度，单位 px，默认值为 960
+		"rpxCalcBaseDeviceWidth": 560, // rpx 计算使用的基准设备宽度，设备实际宽度超出 rpx 计算所支持的最大设备宽度时将按基准宽度计算，单位 px，默认值为 375
+		"rpxCalcIncludeWidth": 9999, // rpx 计算特殊处理的值，始终按实际的设备宽度计算，单位 rpx，默认值为 750
+		// #endif
+		"navigationBarBackgroundColor": "#ffffff",
+		"navigationBarTitleText": "",
+		"navigationBarTextStyle": "black",
+		"backgroundTextStyle": "dark"
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+		}
+	}
+}

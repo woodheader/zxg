@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "会员登录",
+  "usingComponents": {
+    "u-checkbox": "/uview-ui/components/u-checkbox/u-checkbox",
+    "mp-weixin": "/pages/login/components/mp-weixin"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-sticky": "/uview-ui/components/u-sticky/u-sticky",
+    "u-popup": "/uview-ui/components/u-popup/u-popup"
+  }
+}

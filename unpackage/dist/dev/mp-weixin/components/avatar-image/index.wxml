@@ -1,0 +1,1 @@
+<view class="avatar-image data-v-2614c7b6"><image class="image data-v-2614c7b6" style="{{'width:'+(width+'rpx')+';'+('height:'+(width+'rpx')+';')+('border-width:'+(borderWidth+'rpx')+';')+('border-color:'+(borderColor)+';')}}" src="{{url?url:'/static/default-avatar.png'}}"></image></view>

@@ -1,0 +1,320 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 引入uView全局scss变量文件 */
+/*  sku弹出层 */
+.goods-sku-popup.data-v-63515b46 {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+  z-index: 21;
+  overflow: hidden;
+}
+.goods-sku-popup.show.data-v-63515b46 {
+  display: block;
+}
+.goods-sku-popup.show .mask.data-v-63515b46 {
+  -webkit-animation: showPopup-data-v-63515b46 0.2s linear both;
+          animation: showPopup-data-v-63515b46 0.2s linear both;
+}
+.goods-sku-popup.show .layer.data-v-63515b46 {
+  -webkit-animation: showLayer-data-v-63515b46 0.2s linear both;
+          animation: showLayer-data-v-63515b46 0.2s linear both;
+  bottom: 0px;
+}
+.goods-sku-popup.hide .mask.data-v-63515b46 {
+  -webkit-animation: hidePopup-data-v-63515b46 0.2s linear both;
+          animation: hidePopup-data-v-63515b46 0.2s linear both;
+}
+.goods-sku-popup.hide .layer.data-v-63515b46 {
+  -webkit-animation: hideLayer-data-v-63515b46 0.2s linear both;
+          animation: hideLayer-data-v-63515b46 0.2s linear both;
+}
+.goods-sku-popup.none.data-v-63515b46 {
+  display: none;
+}
+.goods-sku-popup .mask.data-v-63515b46 {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+.goods-sku-popup .layer.data-v-63515b46 {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 99;
+  border-radius: 10rpx 10rpx 0 0;
+  background-color: #fff;
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.goods-sku-popup .layer .specification-wrapper.data-v-63515b46 {
+  width: 100%;
+  padding: 30rpx 25rpx;
+  box-sizing: border-box;
+}
+.goods-sku-popup .layer .specification-wrapper .specification-wrapper-content.data-v-63515b46 {
+  width: 100%;
+  max-height: 900rpx;
+  min-height: 300rpx;
+}
+.goods-sku-popup .layer .specification-wrapper .specification-wrapper-content.data-v-63515b46::-webkit-scrollbar {
+  /*隐藏滚轮*/
+  display: none;
+}
+.goods-sku-popup .layer .specification-wrapper .specification-wrapper-content .specification-header.data-v-63515b46 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-bottom: 40rpx;
+}
+.goods-sku-popup .layer .specification-wrapper .specification-wrapper-content .specification-header .specification-left.data-v-63515b46 {
+  width: 180rpx;
+  height: 180rpx;
+  flex: 0 0 180rpx;
+}
+.goods-sku-popup .layer .specification-wrapper .specification-wrapper-content .specification-header .specification-left .product-img.data-v-63515b46 {
+  width: 180rpx;
+  height: 180rpx;
+}
+.goods-sku-popup .layer .specification-wrapper .specification-wrapper-content .specification-header .specification-right.data-v-63515b46 {
+  flex: 1;
+  padding: 0 35rpx 10rpx 28rpx;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-weight: 500;
+}
+.goods-sku-popup .layer .specification-wrapper .specification-wrapper-content .specification-header .specification-right .price-content.data-v-63515b46 {
+  color: #fe560a;
+  margin-bottom: 10rpx;
+}
+.goods-sku-popup .layer .specification-wrapper .specification-wrapper-content .specification-header .specification-right .price-content .sign.data-v-63515b46 {
+  font-size: 28rpx;
+  margin-right: 4rpx;
+}
+.goods-sku-popup .layer .specification-wrapper .specification-wrapper-content .specification-header .specification-right .price-content .price.data-v-63515b46 {
+  margin-left: 4rpx;
+  font-size: 48rpx;
+}
+.goods-sku-popup .layer .specification-wrapper .specification-wrapper-content .specification-header .specification-right .price-content .price2.data-v-63515b46 {
+  margin-left: 4rpx;
+  font-size: 36rpx;
+}
+.goods-sku-popup .layer .specification-wrapper .specification-wrapper-content .specification-header .specification-right .inventory.data-v-63515b46 {
+  font-size: 24rpx;
+  color: #525252;
+  margin-bottom: 14rpx;
+}
+.goods-sku-popup .layer .specification-wrapper .specification-wrapper-content .specification-header .specification-right .choose.data-v-63515b46 {
+  font-size: 24rpx;
+  color: #525252;
+  min-height: 32rpx;
+}
+.goods-sku-popup .layer .specification-wrapper .specification-wrapper-content .specification-content.data-v-63515b46 {
+  font-weight: 500;
+}
+.goods-sku-popup .layer .specification-wrapper .specification-wrapper-content .specification-content .specification-item.data-v-63515b46 {
+  margin-bottom: 40rpx;
+}
+.goods-sku-popup .layer .specification-wrapper .specification-wrapper-content .specification-content .specification-item.data-v-63515b46:last-child {
+  margin-bottom: 0;
+}
+.goods-sku-popup .layer .specification-wrapper .specification-wrapper-content .specification-content .specification-item .item-title.data-v-63515b46 {
+  margin-bottom: 20rpx;
+  font-size: 28rpx;
+  color: #999999;
+}
+.goods-sku-popup .layer .specification-wrapper .specification-wrapper-content .specification-content .specification-item .item-wrapper.data-v-63515b46 {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  margin-bottom: -20rpx;
+}
+.goods-sku-popup .layer .specification-wrapper .specification-wrapper-content .specification-content .specification-item .item-wrapper .item-content.data-v-63515b46 {
+  display: inline-block;
+  padding: 10rpx 35rpx;
+  font-size: 24rpx;
+  border-radius: 10rpx;
+  background-color: #ffffff;
+  color: #333333;
+  margin-right: 20rpx;
+  margin-bottom: 20rpx;
+  border: 2rpx solid #f4f4f4;
+  box-sizing: border-box;
+}
+.goods-sku-popup .layer .specification-wrapper .specification-wrapper-content .specification-content .specification-item .item-wrapper .item-content.actived.data-v-63515b46 {
+  border-color: #fe560a;
+  color: #fe560a;
+}
+.goods-sku-popup .layer .specification-wrapper .specification-wrapper-content .specification-content .specification-item .item-wrapper .item-content.noactived.data-v-63515b46 {
+  color: #c8c9cc;
+  background: #f2f3f5;
+  border-color: #f2f3f5;
+}
+.goods-sku-popup .layer .specification-wrapper .specification-wrapper-content .specification-content .number-box-view.data-v-63515b46 {
+  display: flex;
+  padding-top: 20rpx;
+}
+.goods-sku-popup .layer .specification-wrapper .close.data-v-63515b46 {
+  position: absolute;
+  top: 30rpx;
+  right: 25rpx;
+  width: 50rpx;
+  height: 50rpx;
+  text-align: center;
+  line-height: 50rpx;
+}
+.goods-sku-popup .layer .specification-wrapper .close .close-item.data-v-63515b46 {
+  width: 40rpx;
+  height: 40rpx;
+}
+.goods-sku-popup .layer .btn-wrapper.data-v-63515b46 {
+  display: flex;
+  width: 100%;
+  height: 120rpx;
+  flex: 0 0 120rpx;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 26rpx;
+  box-sizing: border-box;
+}
+.goods-sku-popup .layer .btn-wrapper .layer-btn.data-v-63515b46 {
+  width: 335rpx;
+  height: 76rpx;
+  border-radius: 38rpx;
+  color: #fff;
+  line-height: 76rpx;
+  text-align: center;
+  font-weight: 500;
+  font-size: 28rpx;
+}
+.goods-sku-popup .layer .btn-wrapper .layer-btn.add-cart.data-v-63515b46 {
+  background: #ffbe46;
+}
+.goods-sku-popup .layer .btn-wrapper .layer-btn.buy.data-v-63515b46 {
+  background: #fe560a;
+}
+.goods-sku-popup .layer .btn-wrapper .sure.data-v-63515b46 {
+  margin: 0 auto;
+  width: 95%;
+  max-width: 1200rpx;
+  height: 80rpx;
+  border-radius: 38rpx;
+  color: #fff;
+  line-height: 80rpx;
+  text-align: center;
+  font-weight: 500;
+  font-size: 28rpx;
+  background: #fe560a;
+}
+.goods-sku-popup .layer .btn-wrapper .sure.add-cart.data-v-63515b46 {
+  background: #ff9402;
+}
+@-webkit-keyframes showPopup-data-v-63515b46 {
+0% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+}
+@keyframes showPopup-data-v-63515b46 {
+0% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+}
+@-webkit-keyframes hidePopup-data-v-63515b46 {
+0% {
+    opacity: 1;
+}
+100% {
+    opacity: 0;
+}
+}
+@keyframes hidePopup-data-v-63515b46 {
+0% {
+    opacity: 1;
+}
+100% {
+    opacity: 0;
+}
+}
+@-webkit-keyframes showLayer-data-v-63515b46 {
+0% {
+    -webkit-transform: translateY(120%);
+            transform: translateY(120%);
+}
+100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+}
+}
+@keyframes showLayer-data-v-63515b46 {
+0% {
+    -webkit-transform: translateY(120%);
+            transform: translateY(120%);
+}
+100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+}
+}
+@-webkit-keyframes hideLayer-data-v-63515b46 {
+0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+100% {
+    -webkit-transform: translateY(120%);
+            transform: translateY(120%);
+}
+}
+@keyframes hideLayer-data-v-63515b46 {
+0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+100% {
+    -webkit-transform: translateY(120%);
+            transform: translateY(120%);
+}
+}
+

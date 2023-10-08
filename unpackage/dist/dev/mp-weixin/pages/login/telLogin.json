@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "手机号登录",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "main": "/pages/login/components/main",
+    "mp-weixin": "/pages/login/components/mp-weixin"
+  }
+}

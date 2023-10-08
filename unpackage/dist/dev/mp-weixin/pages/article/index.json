@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "资讯列表",
+  "usingComponents": {
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "mescroll-body": "/components/mescroll-uni/mescroll-body"
+  }
+}

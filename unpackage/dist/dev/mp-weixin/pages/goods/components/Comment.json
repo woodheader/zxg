@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-rate": "/uview-ui/components/u-rate/u-rate",
+    "avatar-image": "/components/avatar-image/index"
+  }
+}

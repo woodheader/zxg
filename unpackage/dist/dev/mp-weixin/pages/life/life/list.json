@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "服务列表",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "mescroll-body": "/components/mescroll-uni/mescroll-body",
+    "search": "/components/search/index"
+  }
+}

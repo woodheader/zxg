@@ -1,0 +1,200 @@
+
+page {
+  background: #f5f5f5;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 引入uView全局scss变量文件 */
+.head-info.data-v-457cfe48 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rpx 30rpx;
+  height: 80rpx;
+}
+.head-info .cart-total.data-v-457cfe48 {
+  font-size: 28rpx;
+  color: #333;
+}
+.head-info .cart-total .active.data-v-457cfe48 {
+  color: #FA2209;
+  margin: 0 2rpx;
+}
+.head-info .cart-edit.data-v-457cfe48 {
+  padding-left: 20rpx;
+}
+.head-info .cart-edit .icon.data-v-457cfe48 {
+  margin-right: 12rpx;
+}
+.head-info .cart-edit .edit.data-v-457cfe48 {
+  color: #fa2209;
+}
+.cart-list.data-v-457cfe48 {
+  padding: 0 16rpx 110rpx 16rpx;
+}
+.cart-item.data-v-457cfe48 {
+  background: #fff;
+  border-radius: 12rpx;
+  display: flex;
+  align-items: center;
+  padding: 30rpx 16rpx;
+}
+.cart-item .item-radio.data-v-457cfe48 {
+  width: 56rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin-right: 10rpx;
+  text-align: center;
+}
+.cart-item .item-radio .radio.data-v-457cfe48 {
+  -webkit-transform: scale(0.76);
+          transform: scale(0.76);
+}
+.cart-item .goods-image.data-v-457cfe48 {
+  width: 200rpx;
+  height: 200rpx;
+}
+.cart-item .goods-image .image.data-v-457cfe48 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 8rpx;
+}
+.cart-item .item-content.data-v-457cfe48 {
+  flex: 1;
+  padding-left: 24rpx;
+}
+.cart-item .item-content .goods-title.data-v-457cfe48 {
+  font-size: 28rpx;
+  max-height: 76rpx;
+}
+.cart-item .item-content .goods-props.data-v-457cfe48 {
+  margin-top: 14rpx;
+  height: 40rpx;
+  color: #ababab;
+  font-size: 24rpx;
+  overflow: hidden;
+}
+.cart-item .item-content .goods-props .goods-props-item.data-v-457cfe48 {
+  display: inline-block;
+  margin-right: 14rpx;
+  padding: 4rpx 16rpx;
+  border-radius: 12rpx;
+  background-color: #F5F5F5;
+  width: auto;
+}
+.cart-item .item-content .item-foot.data-v-457cfe48 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20rpx;
+}
+.cart-item .item-content .item-foot .goods-price.data-v-457cfe48 {
+  vertical-align: bottom;
+  color: #fa2209;
+}
+.cart-item .item-content .item-foot .goods-price .unit.data-v-457cfe48 {
+  font-size: 24rpx;
+}
+.cart-item .item-content .item-foot .goods-price .value.data-v-457cfe48 {
+  font-size: 32rpx;
+}
+.empty-ipt.data-v-457cfe48 {
+  width: 220rpx;
+  margin: 0 auto;
+  font-size: 32rpx;
+  height: 64rpx;
+  line-height: 64rpx;
+  text-align: center;
+  color: #fff;
+  border-radius: 50rpx;
+  background: linear-gradient(to right, #f9211c, #ff6335);
+}
+.footer-fixed.data-v-457cfe48 {
+  display: flex;
+  align-items: center;
+  height: 96rpx;
+  background: #fff;
+  padding: 0 30rpx;
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  z-index: 11;
+}
+.footer-fixed .all-radio.data-v-457cfe48 {
+  width: 140rpx;
+  display: flex;
+  align-items: center;
+}
+.footer-fixed .all-radio .radio.data-v-457cfe48 {
+  margin-bottom: -4rpx;
+  -webkit-transform: scale(0.76);
+          transform: scale(0.76);
+}
+.footer-fixed .total-info.data-v-457cfe48 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 30rpx;
+}
+.footer-fixed .total-info .goods-price.data-v-457cfe48 {
+  vertical-align: bottom;
+  color: #fa2209;
+}
+.footer-fixed .total-info .goods-price .unit.data-v-457cfe48 {
+  font-size: 24rpx;
+}
+.footer-fixed .total-info .goods-price .value.data-v-457cfe48 {
+  font-size: 32rpx;
+}
+.footer-fixed .cart-action.data-v-457cfe48 {
+  width: 200rpx;
+}
+.footer-fixed .cart-action .btn-wrapper.data-v-457cfe48 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.footer-fixed .cart-action .btn-item.data-v-457cfe48 {
+  flex: 1;
+  font-size: 28rpx;
+  height: 72rpx;
+  line-height: 72rpx;
+  text-align: center;
+  color: #fff;
+  border-radius: 50rpx;
+}
+.footer-fixed .cart-action .btn-main.data-v-457cfe48 {
+  background: linear-gradient(to right, #f9211c, #ff6335);
+}
+.footer-fixed .cart-action .btn-main.disabled.data-v-457cfe48 {
+  background: #ff9779;
+}
+

@@ -1,0 +1,204 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 引入uView全局scss变量文件 */
+.order-item.data-v-d37d3c92 {
+  margin: 20rpx auto 20rpx auto;
+  padding: 30rpx 30rpx;
+  width: 94%;
+  box-shadow: 0 1rpx 5rpx 0px rgba(0, 0, 0, 0.05);
+  border-radius: 16rpx;
+  background: #fff;
+}
+.item-top.data-v-d37d3c92 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 26rpx;
+  margin-bottom: 40rpx;
+}
+.item-top .order-time.data-v-d37d3c92 {
+  color: #777;
+}
+.item-top .state-text.data-v-d37d3c92 {
+  color: #fa2209;
+}
+.life-list .life-item.data-v-d37d3c92 {
+  display: flex;
+  margin-bottom: 40rpx;
+}
+.life-list .life-item .life-image.data-v-d37d3c92 {
+  width: 180rpx;
+  height: 180rpx;
+}
+.life-list .life-item .life-image .image.data-v-d37d3c92 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 8rpx;
+}
+.life-list .life-item .life-content.data-v-d37d3c92 {
+  flex: 1;
+  padding-left: 16rpx;
+  padding-top: 16rpx;
+}
+.life-list .life-item .life-content .life-title.data-v-d37d3c92 {
+  font-size: 26rpx;
+  max-height: 76rpx;
+}
+.life-list .life-item .life-content .life-props.data-v-d37d3c92 {
+  margin-top: 14rpx;
+  height: 40rpx;
+  color: #ababab;
+  font-size: 24rpx;
+  overflow: hidden;
+}
+.life-list .life-item .life-content .life-props .life-props-item.data-v-d37d3c92 {
+  display: inline-block;
+  margin-right: 14rpx;
+  padding: 4rpx 16rpx;
+  border-radius: 12rpx;
+  background-color: #F5F5F5;
+  width: auto;
+}
+.life-list .life-item .life-trade.data-v-d37d3c92 {
+  padding-top: 16rpx;
+  width: 220rpx;
+  text-align: right;
+  color: #999;
+  font-size: 26rpx;
+}
+.life-list .life-item .life-trade .life-price.data-v-d37d3c92 {
+  vertical-align: bottom;
+  margin-bottom: 16rpx;
+}
+.life-list .life-item .life-trade .life-price .unit.data-v-d37d3c92 {
+  margin-right: -2rpx;
+  font-size: 24rpx;
+}
+.order-total.data-v-d37d3c92 {
+  font-size: 26rpx;
+  vertical-align: bottom;
+  text-align: right;
+  height: 40rpx;
+  margin-bottom: 30rpx;
+}
+.order-total .unit.data-v-d37d3c92 {
+  margin-left: 8rpx;
+  margin-right: -2rpx;
+  font-size: 26rpx;
+}
+.order-total .money.data-v-d37d3c92 {
+  font-size: 28rpx;
+}
+.order-handle .btn-group .tihuo.data-v-d37d3c92 {
+  float: left;
+}
+.order-handle .btn-group .btn-item-tihuo.data-v-d37d3c92 {
+  border-radius: 6rpx;
+  color: #777;
+  background: #f6ffed;
+  padding: 10rpx 20rpx;
+  font-size: 22rpx;
+  float: left;
+  border: 1rpx solid #E6C48D;
+}
+.order-handle .btn-group .btn-item-tihuo.data-v-d37d3c92:last-child {
+  margin-left: 0;
+}
+.order-handle .btn-group .btn-item-tihuo.active.data-v-d37d3c92 {
+  color: #fa2209;
+  border: 1rpx solid #fa2209;
+}
+.order-handle .btn-group .btn-item-cacel.data-v-d37d3c92 {
+  border-radius: 6rpx;
+  color: #a8a8a8;
+  background: #f6ffed;
+  padding: 6rpx 20rpx;
+  margin-left: 30rpx;
+  font-size: 20rpx;
+  float: left;
+  border: 1rpx solid #a8a8a8;
+  margin-top: 8px;
+}
+.order-handle .btn-group .btn-item.data-v-d37d3c92 {
+  border-radius: 10rpx;
+  padding: 6rpx 20rpx;
+  margin-left: 15rpx;
+  font-size: 28rpx;
+  float: right;
+  color: #383838;
+  border: 1rpx solid #a8a8a8;
+}
+.order-handle .btn-group .btn-item.data-v-d37d3c92:last-child {
+  margin-left: 0;
+}
+.order-handle .btn-group .btn-item.active.data-v-d37d3c92 {
+  color: #fa2209;
+  border: 1rpx solid #fa2209;
+}
+.pay-popup.data-v-d37d3c92 {
+  padding: 24rpx;
+}
+.pay-popup .title.data-v-d37d3c92 {
+  font-size: 30rpx;
+  margin-bottom: 40rpx;
+  font-weight: bold;
+  text-align: center;
+}
+.pay-popup .pop-content.data-v-d37d3c92 {
+  min-height: 260rpx;
+  padding: 0 10rpx;
+}
+.pay-popup .pop-content .pay-item.data-v-d37d3c92 {
+  padding: 24rpx 35rpx;
+  font-size: 28rpx;
+  border-bottom: 1rpx solid #f1f1f1;
+}
+.pay-popup .pop-content .pay-item.data-v-d37d3c92:last-child {
+  border-bottom: none;
+}
+.pay-popup .pop-content .pay-item .item-left_icon.data-v-d37d3c92 {
+  margin-right: 20rpx;
+  font-size: 32rpx;
+}
+.pay-popup .pop-content .pay-item .item-left_icon.wechat.data-v-d37d3c92 {
+  color: #00c800;
+}
+.pay-popup .pop-content .pay-item .item-left_icon.balance.data-v-d37d3c92 {
+  color: #ff9700;
+}
+.pay-popup .serve-time.data-v-d37d3c92 {
+  border-radius: 6 rpx;
+  color: #52c41a;
+  background: #f6ffed;
+  padding: 6 rpx 20 rpx;
+  margin-left: 15 rpx;
+  font-size: 20 rpx;
+  float: left;
+  border: 1 rpx solid #b7eb8f;
+  margin-top: 8px;
+}
+

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "生活服务",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "search": "/components/page/search/index",
+    "msg-notice": "/components/page/msgNotice/index"
+  }
+}

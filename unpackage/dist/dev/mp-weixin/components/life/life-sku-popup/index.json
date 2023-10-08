@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "number-box": "/components/life/life-sku-popup/number-box/index",
+    "time": "/pages/life/life/components/Time"
+  }
+}
