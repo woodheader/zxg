@@ -1,56 +1,29 @@
-# 萤火商城V2.0开源版 [uni-app端]
+# 知小管 - 您手中的社区管家
 
 #### 项目介绍
-萤火商城V2.0，是2021年全新推出的一款轻量级、高性能、前后端分离的电商系统，支持微信小程序 + H5+ 公众号 + APP，前后端源码完全开源，看见及所得，完美支持二次开发，可学习可商用，让您快速搭建个性化独立商城。
+1. 物业和社区管理小程序，用于打通物业和业主之间的良性桥梁，提高收费率，提升服务透明度，增进信任！
+2. 小程序主要功能：房屋管理、物业缴费、收据下载、物业通知、投票征集、电商系统、本地服务等常用功能。
 
-    如果对您有帮助，您可以点右上角 “Star” 收藏一下 ，获取第一时间更新，谢谢！
+#### 项目结构
+- 前端工程
+	* 当前为小程序前端工程，采用 uniapp 开发，可一键生成微信小程序、百度小程序、安卓APP
+	* zxg-admin，小程序管理后台UI，采用 ant-design 开发，主要包含用户、商品、服务、订单等功能
+	* zxg-sadmin，小程序超管后台UI，采用 ant-design 开发，主要包含管理后台的菜单权限等功能
+- 后端工程
+	* zxg-server，小程序和后天的服务端工程，采用 PHP & ThinkPHP5 开发，集成了 MQ、Redis 等高可用组件
 
-#### 源码下载
-1. 主商城端（又称后端、服务端，PHP开发 用于管理后台和提供api接口）
+#### 小程序界面
+<img src="https://github.com/woodheader/zxg/assets/12424760/f6003a4e-faef-4fca-9d94-d1c1a906ce21" height="500px">
+<img src="https://github.com/woodheader/zxg/assets/12424760/7774e979-6a63-4b8c-aa7d-2655637a2c6e" height="500px">
+<img src="https://github.com/woodheader/zxg/assets/12424760/1643a4b2-7f56-4327-b487-8e7200f1b27c" height="500px">
+<img src="https://github.com/woodheader/zxg/assets/12424760/3c73b0a6-9233-4b5c-bdd5-4c4bf5bbf5a3" height="500px">
+<img src="https://github.com/woodheader/zxg/assets/12424760/75684c9e-ae89-4a4d-9e67-305d26719a20" height="500px">
+<img src="https://github.com/woodheader/zxg/assets/12424760/9ff8141a-448e-4425-84c1-51a76da43203" height="500px">
 
-    下载地址：[https://gitee.com/xany/yoshop2.0](https://gitee.com/xany/yoshop2.0)
-
-2. 用户端（也叫客户端、前端，uniapp开发 用于生成H5和微信小程序）
-
-    下载地址：[https://gitee.com/xany/yoshop2.0-uniapp](https://gitee.com/xany/yoshop2.0-uniapp)
-
-#### 如何使用uni-app端
-
-##### 一、导入uniapp项目
-
-    1. 首先下载HBuilderX并安装，地址：https://www.dcloud.io/hbuilderx.html
-    2. 打开HBuilderX -> 顶部菜单栏 -> 文件 -> 导入 -> 从本地目录导入 -> 选择uniapp端项目目录
-    3. 找到config.js文件，找到里面的apiUrl项，填入已搭建的后端url地址
-    4. 打开manifest.json文件，选择微信小程序配置，填写小程序的appid
-
-##### 二、本地调试
-
-    1. 打开HBuilderX -> 顶部菜单栏 -> 运行 -> 运行到浏览器 -> Chrome
-    2. 如果请求后端api时 提示跨域错误，可安装Chrome插件：【Allow CORS: Access-Control-Allow-Origin】，地址：https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf
-
-##### 三、打包发行（H5）
-
-    1. 打开HBuilderX -> 顶部菜单栏 -> 发行 -> 网站H5-手机版
-    2. 打包后的文件路径：/unpackage/dist/build/h5
-    3. 将打包完成的所有文件 复制到商城后端/pulic目录下，全部替换
-
-##### 四、打包发行（微信小程序）
-
-    1. 下载微信开发者工具并安装，地址：https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html
-    2. 打开HBuilderX -> 顶部菜单栏 -> 发行 -> 小程序-微信
-    3. 打包后的文件路径：/unpackage/dist/build/mp-weixin
-    5. 打开微信开发者工具 导入 打包完成的项目
-    6. 检查没有运行错误，在右上方上传小程序
-
-
-#### UNIAPP-页面展示
-![前端展示](https://images.gitee.com/uploads/images/2021/0316/215102_7bcb0802_2166072.png "前端展示.png")
-
-#### 系统演示
-![前端演示二维码](https://images.gitee.com/uploads/images/2021/0316/104516_3778337e_2166072.png "111.png")
-
-
-
+#### 购买须知
+1. 为了更好的支持项目继续开发，有意付费购买的同学，请关注公众号咨询，公众号：问答求知
+2. 付费用户支持首次免费协助部署上线，后续维护200元/次
+3. 需要二次开发的用户，针对功能点具体沟通
 
 #### 版权须知
 
@@ -61,9 +34,4 @@
 
 本项目包含的第三方源码和二进制文件之版权信息另行标注。
 
-版权所有Copyright © 2017-2021 By 萤火科技 (https://www.yiovo.com) All rights reserved。
-
-
-
-
-
+版权所有Copyright © 2021-2023 By 求知科技 (https://www.wdqz.com.cn) All rights reserved。
